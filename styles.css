@@ -3,14 +3,22 @@
     text-align: center;
 }
 
-ul {
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+#navbar > li {
     display: inline;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-position: inside;
 }
 
 img {
