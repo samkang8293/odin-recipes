@@ -1,5 +1,8 @@
 * {
     font-family: Helvetica, sans-serif;
+}
+
+h1, #navbar, img, h2 {
     text-align: center;
 }
 
@@ -34,4 +37,13 @@ img {
 
 .description {
     text-align: center;
+}
+
+.ingredients {
+    display: block;
+    text-align: left;
+}
+
+.ingredients > ul {
+    padding-left: 40px;
 }
